@@ -8,7 +8,7 @@ public class Exit0 implements ModInitializer {
     @Override
     public void onInitialize() {
         ClientLifecycleEvents.CLIENT_STARTED.register(client -> {
-            MinecraftClient.getInstance().stop();
+            System.exit(0);
         });
     }
 }
