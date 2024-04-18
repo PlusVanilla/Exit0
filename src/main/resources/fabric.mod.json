@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "exit0",
+  "version": "${version}",
+  "name": "Exit 0",
+  "description": "",
+  "authors": [
+    "LittleChest"
+  ],
+  "contact": {
+    "repo": "https://github.com/PlusVanilla/Exit0"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.littlew.exit0.Exit0"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "fabric-api": ">=${api_version}"
+  }
+}
